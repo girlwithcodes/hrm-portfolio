@@ -1,8 +1,8 @@
 #welcome-section {
   min-height: 100vh;
   width: 100vw;
-  border: 4vw solid white;
-  background-color: white;
+  border: 4vw solid #ebebeb;
+  background-color: #ebebeb;
   border-radius: 5%;
   box-shadow: 0 0 0 .6em black;
   color: white;
@@ -10,21 +10,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* position: absolute;
-  top: -100vh; */
   opacity: 0;
 
   animation: fade 2s forwards;
 }
 
-@keyframes slide{
-  100% {top: 0;}
-}
 
 
 
 .comp-screen {
-  /* border: 5px solid transparent; */
   border-radius: 5%;
   padding: 32px;
   background: black;

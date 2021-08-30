@@ -6,7 +6,7 @@ function AboutMe() {
     <section id="about-me-section">
       <div className="comp-screen-ab">
         
-        <div className="title">
+        <div className="title-ab">
           <h1 className="ab-title">About Me</h1>
         </div>
 

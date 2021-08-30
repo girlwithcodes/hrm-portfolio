@@ -1,0 +1,125 @@
+#skills-section {
+  min-height: 100vh;
+  width: 100vw;
+  border: 4vw solid #ebebeb;
+  background-color: #ebebeb;
+  border-radius: 5%;
+  box-shadow: 0 0 0 .6em black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+  animation: fade 2s forwards;
+}
+
+.comp-screen-sk {
+  border-radius: 5%;
+  padding: 30px;
+  background: black;
+  min-height: 90vh;
+  width: 90vw;
+  position: relative;
+  top: 2px;
+  
+  display: grid;
+  grid-template-areas: 
+  "A A A . . "
+  "B B B B B"
+  "B B B B B"
+  "C C C C C"
+  "E E E E E";
+
+  -webkit-box-shadow: inset 0px 0px 30px 5px rgba(121, 235, 228, 0.735);
+  -moz-box-shadow: inset 0px 0px 30px 5px rgba(121, 235, 228, 0.735);
+  box-shadow: inset 0px 0px 30px 5px rgba(121, 235, 228, 0.735);
+
+  animation: border-flicker-ab 10s  infinite;
+}
+
+.title-sk {
+  width: 50vw;
+  min-width: 175px;
+}
+
+.title-sk h1{
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-family: 'Tourney', cursive;
+  -webkit-text-stroke: 1px white;
+  background:#79ebe4;
+  text-shadow: 0 0 0.6rem #d7fffc, 0 0 1.5rem #79ebe4,
+      -0.2rem 0.1rem 1rem #65e9e1, 0.2rem 0.1rem 1rem #65e9e1,
+      0 -0.5rem 2rem #4df2e7, 0 0.5rem 3rem #4df2e7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tech-skills-div {
+  grid-area: B;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.tech-skills-div p {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  color:#e7f9ff;
+  margin: 3px;
+}
+
+.soft-skills-div {
+  grid-area: C;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.soft-skills-div p {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  color:#e7f9ff;
+  margin: 3px;
+
+}
+
+.icon-round {
+  border-radius: 50%;
+  box-shadow: 0 0 5px #79ebe4, 0 0 10px #79ebe4, 0 0 20px #79ebe4;
+
+}
+
+.icon-square {
+  width: 24px;
+  border: 1px solid #79ebe4;
+  box-shadow: 0 0 5px #79ebe4, 0 0 10px #79ebe4, 0 0 20px #79ebe4;
+}
+
+
+.nav-links-sk a {
+  width: 15vw;
+  min-width: 100px;
+  height: 4vh;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  font-family:'Courier New', Courier, monospace;
+
+  cursor: pointer;
+}
+
+
+.nav-links-sk {
+  grid-area: E;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2vh 1vw;
+}
