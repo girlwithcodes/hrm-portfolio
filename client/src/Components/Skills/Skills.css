@@ -122,4 +122,21 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 2vh 1vw;
+  padding: 0;
+  background: transparent;
+}
+
+@media (max-width: 700px) {
+  .nav-links-sk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .nav-links-sk a {
+    margin: 15px 0;
+    min-width: 120px;
+  }
 }

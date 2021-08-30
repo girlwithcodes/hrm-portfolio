@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { githubIcon, jsIcon, reactIcon, rubyIcon, railsIcon, javaIcon, pythonIcon, phpIcon, mySqlIcon,htmlIcon, cssIcon, communicationIcon, flexibilityIcon, collaborationIcon, googleIcon } from '../../Assets/Images/Icons';
+import { githubIcon, jsIcon, reactIcon, rubyIcon, railsIcon, javaIcon, pythonIcon,htmlIcon, cssIcon, communicationIcon, flexibilityIcon, collaborationIcon, googleIcon } from '../../Assets/Images/Icons';
 import './Skills.css';
 
 function Skills() {

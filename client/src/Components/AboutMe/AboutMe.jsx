@@ -13,7 +13,7 @@ function AboutMe() {
         <div className="ab-p1">
 
         <div className="prof-pic-div">
-          <img src={profpic} className="prof-pic-img" />
+          <img alt="profile-pic" src={profpic} className="prof-pic-img" />
         </div>
           <p>
             Hi! I'm Heather Mantooth, a software engineer from Houston, Texas. I believe in the power of technology to making the world more equitable, just, and sustainable.  As a developer, I am committed to helping people by delivering innovative solutions and to continuously learning and growing.

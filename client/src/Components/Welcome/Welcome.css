@@ -22,7 +22,7 @@
   border-radius: 5%;
   padding: 32px;
   background: black;
-  height: 90vh;
+  min-height: 90vh;
   width: 90vw;
   display: grid;
   grid-template-areas: 
@@ -77,7 +77,7 @@
 
 .nav-links a {
   width: 15vw;
-  min-width: 100px;
+  min-width: 150px;
   height: 4vh;
   min-height: 40px;
   display: flex;
@@ -368,3 +368,17 @@
   }
 }
 
+@media (max-width: 700px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .nav-links a {
+    margin: 15px 0;
+    min-width: 120px;
+  }
+}
