@@ -30,6 +30,7 @@
   "B B B B B"
   "B B B B B"
   "B B B B B"
+  "C C C C C"
   "E E E E E";
 
   -webkit-box-shadow: inset 0px 0px 30px 5px rgba(143, 255, 115, 0.735);
@@ -142,6 +143,29 @@
   color: black;
   -webkit-text-stroke: 1px black;
   box-shadow: 0 0 10px #8fff73, 0 0 40px #8fff73, 0 0 80px #8fff73;
+}
+
+.contact-icons-div {
+  grid-area: C;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15vw;
+  min-width: 150px;
+}
+
+.icon-round-green {
+  border-radius: 50%;
+  box-shadow: 0 0 5px #8fff73, 0 0 10px #8fff73, 0 0 20px #8fff73;
+
+}
+
+.icon-square-green {
+  width: 24px;
+  border: 1px solid #8fff73;
+  box-shadow: 0 0 5px #8fff73, 0 0 10px #8fff73, 0 0 20px #8fff73;
 }
 
 @media (max-width: 750px) {

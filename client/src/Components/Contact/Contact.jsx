@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
+import { githubGreen, linkedInIcon } from '../../Assets/Images/Icons';
 import './Contact.css';
 
 function Contact() {
@@ -98,6 +99,11 @@ function Contact() {
           
           <button className="send-button" onClick={toggleVisibility}>Send</button>
         </form>
+      </div>
+
+      <div className="contact-icons-div">
+        <a href="https://github.com/girlwithcodes" target="_blank" rel="noopener noreferrer">{githubGreen}</a>
+        <a href="https://www.linkedin.com/in/heather-mantooth-grlwcds/" target="_blank" rel="noopener noreferrer">{linkedInIcon}</a>
       </div>
 
       <div className="nav-links-sk">
