@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+html {
+  font-size: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* font-family: 'Actor', sans-serif;
+font-family: 'Armata', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Unica One', cursive; */
