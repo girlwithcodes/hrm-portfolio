@@ -3,6 +3,7 @@ import Welcome from './Components/Welcome/Welcome';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       </Route>
 
       <Route path="/contact">
-        
+        <Contact />
       </Route>
 
     </div>
